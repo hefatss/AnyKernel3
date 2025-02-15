@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=aura-kernel
+kernel.string=akira kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -12,10 +12,9 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=topaz
 device.name2=tapas
-device.name3=
-device.name4=
-device.name5=
-supported.versions=
+supported.versions=13 - 15
+supported.patchlevels=
+supported.vendorpatchlevels=
 '; } # end properties
 
 # shell variables
